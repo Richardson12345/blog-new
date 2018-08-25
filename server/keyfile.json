@@ -1,0 +1,13 @@
+{
+    "type": "service_account",
+    "project_id": "crucial-venture-210610",
+    "private_key_id": "fccf948c008e72afd1a75c07f56eb1968d9d500a",
+    "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQD312xc5/U/Qmpf\nYMsYKSa0hD89r36f9egci0GloXx4EAam1fW9FZo3BP9Llw6o2x8KJsmOr8izhcHO\nrEME+6koRwJC4vO6/8rilw5ae/VFbJ65970N0tHLHF7jpbvk89gTO7aGd59cHuWi\nlDT93To/Us8RfnZJv0rz5HJDL4VeML5m7O6LZqaKCcS55aIk4F10XPaWH0WN4Eqk\n9WhJVm+whup/14Urz4FPUzB4YGFuT8y/R0no6uvo/BxuwAIddRExrU3Wsw/vs3Eg\nz9sprGQAz+MoZs0f0PqdwEzWHxUX5RGHgz2LX3Ly2SKGEWHyo0E/QTyvnsSBRJst\npFPr7uRJAgMBAAECggEAEnbTpWZIkKJvj1SEPPQP5KH3ni5dZihpVvsO9Hp/7efv\nvu0wxhn+Z7vxEx4ZYv4UJWr3WDCDaNB9vFp8Ebp4Az6rDfWfh953rILpeFdE0hvC\nBYPN62I57AJclWQrB+ccwW4Q7pqp3jCVFhQpkIIzTTVrpNeBk4PzXxE1bAj1zCr6\n884K7WhGxml/G9yt9AyeUvkm8gFh2loz/nQFIRwjOEIJt5tHFrBtrqUP5ear+2JL\nKil2wNnTVZdgkbpVZyTAIPccPKsljUmfQRHLk0L5xGGw7rSfGMJaL2DBQMur2rz0\n6kOtz48gQ4Hqv/kOKk0kcsxh1b6JFoxAidSl655GQQKBgQD+ZzwGoHNYnjV721Nj\nluzVDPbAlB/WzOHY36I4eWIlDAyeKihLKbjIkyGwjsvBzTHdAZ51/rvQUF7EZMm+\nRhpZF2qf5GTOXDMS6/QwLG/lmz9EZlqz9oy9M1nzDZj6nkgnnnGzSrEujuF/raia\n+XwnfAPeA8SccGiYhmmiD/k32QKBgQD5ZaVHsA7z6VnGm/DrmEbT9C5L3R7s8h6y\nwJRAMMhPVzSXR2WguXgltiaeJDjmThN/++p6L9YEDvgYdZw7bVQZMhQOgwz+JuEM\n+qEsGbRMuYmGfMFd2oQhpAahAn3WZYqUpObbOL2WLXsYo9R96qOdKSaHU2fqZrm3\nGBseELI58QKBgQDqqApkCmeanAO1RO6786BsO9L2eyqLFNxVEKIu+Tef+GdDFJuq\nCMfaqmvu0Sf8kOqncjDZoadXVGq1OEol6b+v4buF1ENvXPf3QhEwxixIW1SWINsV\nGBtlARK88BPlR05CzREPUZvw1/YDsQjOOcVdHjTq+grGSaEQ3xpcU+OKsQKBgFk1\nBIO58/9HDre9+9UpqNwT0aONOoyiplxmCiFT0bKfjM432aA99z32A6Y5aqjmcI8s\n+tgt2C2ndRK6ruGK37QLd6UhNzqJiaJs2828fAOdshWK9let2+l0lHJvQ7e2pnU4\n7uKnTxkyt38+yrknftKub3ukV90+VVuqobiFXFrhAoGAaFcIZv/JfHWa3evbA0cy\n9tJZFoUcmCEOF78ZxVa0Xf3PnAJvfAID8PGFNxHPPk/O82j8QmgthnJ8l4AUGnJA\nw2u+qvBjgyLqRkUrdlxmmabthE41qUJqYrH3Vs6+Lf6P18Whb2UdWsMDrMBUc1Ik\ncyJEShme0Xtk0x541buYdNk=\n-----END PRIVATE KEY-----\n",
+    "client_email": "chuddywarrior@crucial-venture-210610.iam.gserviceaccount.com",
+    "client_id": "107313124374057932131",
+    "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+    "token_uri": "https://oauth2.googleapis.com/token",
+    "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+    "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/chuddywarrior%40crucial-venture-210610.iam.gserviceaccount.com"
+  }
+  
