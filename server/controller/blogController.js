@@ -8,7 +8,7 @@ class Controller {
         jwt.verify(token, 'secret', ( err, decoded ) => {
             if ( err ) {
                 res
-                .status(404)
+                .status(401)
                 .json(err)
             } else {
                 blogModel.create({
@@ -20,7 +20,7 @@ class Controller {
                     if ( err ) {
                         console.log(err)
                         res
-                        .status(404)
+                        .status(401)
                         .send(err)
                     }else{
                         res

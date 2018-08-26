@@ -6,15 +6,24 @@ var logger = require('morgan');
 var cors = require('cors');
 var mongoose = require('mongoose');
 var dote = require('dotenv').config();
-mongoose.connect('mongodb://admin:abc123@ds125482.mlab.com:25482/blogger-new');
 
-
-var db = mongoose.connection;
-db.on('error', console.error.bind(console, 'connection error:'));
-db.once('open', function() {
-  console.log('connected');
-  // we're connected!
-});
+if ( process.env.NODE_ENV == 'test' ) {
+  mongoose.connect('mongodb://admin:abc123@ds245971.mlab.com:45971/article-blog-test', { useNewUrlParser: true });
+  var db = mongoose.connection;
+  db.on('error', console.error.bind(console, 'connection error:'));
+  db.once('open', function() {
+    console.log('connected to testing');
+    // we're connected!
+  });
+} else {
+  mongoose.connect('mongodb://admin:abc123@ds125482.mlab.com:25482/blogger-new', { useNewUrlParser: true });
+  var db = mongoose.connection;
+  db.on('error', console.error.bind(console, 'connection error:'));
+  db.once('open', function() {
+    console.log('connected to development');
+    // we're connected!
+  });
+}
 
 var blogRouter = require('./routes/blog');
 var usersRouter = require('./routes/users');
